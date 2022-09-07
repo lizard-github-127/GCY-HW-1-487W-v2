@@ -1,4 +1,3 @@
-@@ -0,0 +1,334 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -9,7 +8,7 @@ import oracle.jdbc.pool.OracleDataSource;
 
 import java.time.LocalDateTime;
 
-public class mainGCY {
+public class mainGCYHW {
 
 	public static OracleDataSource ods;
 	public static Connection conn;
