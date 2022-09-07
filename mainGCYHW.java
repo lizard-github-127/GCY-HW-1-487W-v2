@@ -98,7 +98,7 @@ public class mainGCYHW {
 		
 		//String id = cardswipe_info.getText();
 		String date_now = LocalDateTime.now().toString();
-		String date_year = "2019";//date_now.substring(0, 4);
+		String date_year = date_now.substring(0, 4);
 		
 		stmt.executeUpdate("INSERT INTO PSUstudents(student_id, access_date) " +
 		"VALUES ('" + id + "', '" + date_year + "') ");
